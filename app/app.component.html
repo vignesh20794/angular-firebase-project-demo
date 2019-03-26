@@ -1,0 +1,16 @@
+<strong>The following details are live connected to a firebase database. <br></strong>
+
+
+<ul>
+	<li>Personal Details:-
+		<ul>
+			<li>{{(mydata|async)?.pDetails.name}}</li>
+			<li>{{(mydata|async)?.pDetails.age}}</li>
+			<li>{{(mydata|async)?.pDetails.address}}</li>
+		</ul>
+	</li>
+</ul>
+
+<!-- <br>
+<button (click)="insertData()">click to update</button> -->
+<!-- <div class="animated-background"></div> -->
